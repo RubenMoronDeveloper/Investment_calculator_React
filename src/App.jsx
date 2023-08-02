@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Table } from "./assets/Components/Chart/Table";
-import { Form } from "./assets/Components/Form/Form";
-import { Header } from "./assets/Components/Header/Header";
+import { Table } from "./Components/Chart/Table";
+import { Form } from "./Components/Form/Form";
+import { Header } from "./Components/Header/Header";
 function App() {
   const [investmentData, setInvestmentData] = useState("");
 
